@@ -1,0 +1,18 @@
+ContactsManager
+	fields
+		contacts
+	methods
+		addContact
+		searchContact
+
+Contact
+	fields
+		name
+		phoneNumber
+
+Assume we do not have contacts with the same name
+
+addContact has to add contacts to the list of contacts and if the contact is 
+already on the list we have to update the contact with the new information.
+
+searchContact have to retun the phone number of a contact

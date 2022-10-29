@@ -3,7 +3,8 @@ def find_duplicate(nums):
     j = 0
     for i in range(end):
         j = nums[j]
-    
+
+    print(j)
     cycle_element = j
     cycle_size = 1
 
@@ -25,4 +26,4 @@ def find_duplicate(nums):
     
     return hare
 
-print(find_duplicate([3,1,3,4,2]))
+print(find_duplicate([1,2,3,4,3,3]))
